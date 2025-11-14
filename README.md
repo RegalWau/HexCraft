@@ -29,6 +29,11 @@ The mod is still in heavy development, but you are more than welcome to try it! 
 - Minecraft 1.7.10
 - Forge 10.13.4.1614
 
+**Building on linux**
+1)Clone this repository
+2)./gradlew build
+3)Bask in hexorium glory
+
 **Building**
 1) Clone this repository.
 2) Run `gradlew setupDecompWorkspace`
