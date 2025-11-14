@@ -1,7 +1,15 @@
 package com.celestek.hexcraft.client.renderer;
 
 import com.celestek.hexcraft.HexCraft;
-import com.celestek.hexcraft.block.*;
+import com.celestek.hexcraft.block.BlockEnergizedHexorium;
+import com.celestek.hexcraft.block.BlockGlowingHexoriumGlass;
+import com.celestek.hexcraft.block.BlockHexoriumLamp;
+import com.celestek.hexcraft.block.BlockHexoriumLampInv;
+import com.celestek.hexcraft.block.BlockHexoriumNetherOre;
+import com.celestek.hexcraft.block.BlockHexoriumOre;
+import com.celestek.hexcraft.block.BlockHexoriumStructureCasing;
+import com.celestek.hexcraft.block.BlockOfHexoriumCrystal;
+import com.celestek.hexcraft.block.BlockTankValve;
 import com.celestek.hexcraft.client.HexClientProxy;
 import com.celestek.hexcraft.util.HexEnums;
 import com.celestek.hexcraft.util.HexUtils;

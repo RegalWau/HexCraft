@@ -6,7 +6,7 @@ import com.celestek.hexcraft.block.BlockTemperedHexoriumGlass;
 import com.celestek.hexcraft.block.HexBlockMT;
 import com.celestek.hexcraft.init.HexBlocks;
 import com.celestek.hexcraft.init.HexConfig;
-import com.celestek.hexcraft.tileentity.*;
+import com.celestek.hexcraft.tileentity.TileTankValve;
 import net.minecraft.block.Block;
 import net.minecraft.world.World;
 

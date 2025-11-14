@@ -1,6 +1,8 @@
 package com.celestek.hexcraft.util;
 
-import com.celestek.hexcraft.block.*;
+import com.celestek.hexcraft.block.BlockEnergyNodeCore;
+import com.celestek.hexcraft.block.BlockHexoriumStructureCasing;
+import com.celestek.hexcraft.block.IBlockHexEnergyPort;
 import com.celestek.hexcraft.init.HexBlocks;
 import com.celestek.hexcraft.init.HexConfig;
 import net.minecraft.block.Block;

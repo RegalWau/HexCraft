@@ -10,7 +10,7 @@ import com.celestek.hexcraft.util.NetworkAnalyzer;
 import com.celestek.hexcraft.util.HexPylon;
 import net.minecraft.block.Block;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.item.*;
+import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.network.NetworkManager;
 import net.minecraft.network.Packet;

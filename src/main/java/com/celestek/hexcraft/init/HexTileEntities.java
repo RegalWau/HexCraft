@@ -1,6 +1,19 @@
 package com.celestek.hexcraft.init;
 
-import com.celestek.hexcraft.tileentity.*;
+import com.celestek.hexcraft.tileentity.TileCrystalSeparator;
+import com.celestek.hexcraft.tileentity.TileEnergyNodePortEU;
+import com.celestek.hexcraft.tileentity.TileEnergyNodePortHEX;
+import com.celestek.hexcraft.tileentity.TileEnergyNodePortLU;
+import com.celestek.hexcraft.tileentity.TileEnergyNodePortRF;
+import com.celestek.hexcraft.tileentity.TileEnergyPylon;
+import com.celestek.hexcraft.tileentity.TileHexoriumFurnace;
+import com.celestek.hexcraft.tileentity.TileHexoriumGenerator;
+import com.celestek.hexcraft.tileentity.TileMatrixReconstructor;
+import com.celestek.hexcraft.tileentity.TilePersonalTeleportationPad;
+import com.celestek.hexcraft.tileentity.TileQuantumObserver;
+import com.celestek.hexcraft.tileentity.TileSoundProjector;
+import com.celestek.hexcraft.tileentity.TileTankRender;
+import com.celestek.hexcraft.tileentity.TileTankValve;
 import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.registry.GameRegistry;
 

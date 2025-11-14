@@ -1,7 +1,13 @@
 package com.celestek.hexcraft.item;
 
 import com.celestek.hexcraft.HexCraft;
-import com.celestek.hexcraft.block.*;
+import com.celestek.hexcraft.block.BlockConcentricHexoriumBlock;
+import com.celestek.hexcraft.block.BlockEngineeredHexoriumBlock;
+import com.celestek.hexcraft.block.BlockFramedHexoriumBlock;
+import com.celestek.hexcraft.block.BlockGlowingHexoriumCoatedStone;
+import com.celestek.hexcraft.block.BlockHexoriumCoatedStone;
+import com.celestek.hexcraft.block.BlockHexoriumStructureCasing;
+import com.celestek.hexcraft.block.BlockPlatedHexoriumBlock;
 import com.celestek.hexcraft.init.HexAchievements;
 import com.celestek.hexcraft.init.HexBlocks;
 import com.celestek.hexcraft.init.HexConfig;

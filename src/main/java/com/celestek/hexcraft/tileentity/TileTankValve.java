@@ -1,6 +1,10 @@
 package com.celestek.hexcraft.tileentity;
 
-import com.celestek.hexcraft.block.*;
+import com.celestek.hexcraft.block.BlockHexoriumCoatedStone;
+import com.celestek.hexcraft.block.BlockTankRender;
+import com.celestek.hexcraft.block.BlockTankValve;
+import com.celestek.hexcraft.block.BlockTemperedHexoriumGlass;
+import com.celestek.hexcraft.block.HexBlockMT;
 import com.celestek.hexcraft.init.HexAchievements;
 import com.celestek.hexcraft.init.HexBlocks;
 import com.celestek.hexcraft.init.HexConfig;
@@ -12,7 +16,13 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.ChatComponentTranslation;
 import net.minecraftforge.common.util.ForgeDirection;
-import net.minecraftforge.fluids.*;
+import net.minecraftforge.fluids.Fluid;
+import net.minecraftforge.fluids.FluidContainerRegistry;
+import net.minecraftforge.fluids.FluidRegistry;
+import net.minecraftforge.fluids.FluidStack;
+import net.minecraftforge.fluids.FluidTank;
+import net.minecraftforge.fluids.FluidTankInfo;
+import net.minecraftforge.fluids.TileFluidHandler;
 
 public class TileTankValve extends TileFluidHandler {
 

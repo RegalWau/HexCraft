@@ -1,8 +1,22 @@
 package com.celestek.hexcraft.item;
 
 import com.celestek.hexcraft.HexCraft;
-import com.celestek.hexcraft.block.*;
-import com.celestek.hexcraft.init.*;
+import com.celestek.hexcraft.block.BlockEnergizedHexorium;
+import com.celestek.hexcraft.block.BlockGlowingHexoriumGlass;
+import com.celestek.hexcraft.block.BlockHexoriumCable;
+import com.celestek.hexcraft.block.BlockHexoriumDoor;
+import com.celestek.hexcraft.block.BlockMiniEnergizedHexorium;
+import com.celestek.hexcraft.block.IBlockHexColor;
+import com.celestek.hexcraft.block.IBlockHexVariant;
+import com.celestek.hexcraft.block.IBlockMultiBlock;
+import com.celestek.hexcraft.block.IBlockUsableTransposer;
+import com.celestek.hexcraft.block.IBlockUsableTransposerMini;
+import com.celestek.hexcraft.block.IHexBlock;
+import com.celestek.hexcraft.init.HexAchievements;
+import com.celestek.hexcraft.init.HexBlocks;
+import com.celestek.hexcraft.init.HexConfig;
+import com.celestek.hexcraft.init.HexGui;
+import com.celestek.hexcraft.init.HexItems;
 import com.celestek.hexcraft.util.HexDamage;
 import com.celestek.hexcraft.util.HexEnums;
 import com.celestek.hexcraft.util.HexUtils;
@@ -20,7 +34,8 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
-import net.minecraft.util.*;
+import net.minecraft.util.ChatComponentTranslation;
+import net.minecraft.util.IIcon;
 import net.minecraft.world.World;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 

@@ -1,7 +1,16 @@
 package com.celestek.hexcraft.client.renderer;
 
 import com.celestek.hexcraft.HexCraft;
-import com.celestek.hexcraft.block.*;
+import com.celestek.hexcraft.block.BlockCrystalSeparator;
+import com.celestek.hexcraft.block.BlockEnergyNodePortHEX;
+import com.celestek.hexcraft.block.BlockHexoriumCable;
+import com.celestek.hexcraft.block.BlockHexoriumFurnace;
+import com.celestek.hexcraft.block.BlockHexoriumGenerator;
+import com.celestek.hexcraft.block.BlockMatrixReconstructor;
+import com.celestek.hexcraft.block.BlockPersonalTeleportationPad;
+import com.celestek.hexcraft.block.BlockPylonBase;
+import com.celestek.hexcraft.block.BlockQuantumObserver;
+import com.celestek.hexcraft.block.IBlockHexColor;
 import com.celestek.hexcraft.client.HexClientProxy;
 import com.celestek.hexcraft.init.HexBlocks;
 import com.celestek.hexcraft.util.HexEnums;

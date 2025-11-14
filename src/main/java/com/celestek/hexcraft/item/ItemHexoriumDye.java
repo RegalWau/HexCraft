@@ -1,7 +1,11 @@
 package com.celestek.hexcraft.item;
 
 import com.celestek.hexcraft.HexCraft;
-import com.celestek.hexcraft.block.*;
+import com.celestek.hexcraft.block.BlockHexoriumDoor;
+import com.celestek.hexcraft.block.IBlockHexColor;
+import com.celestek.hexcraft.block.IBlockHexVariant;
+import com.celestek.hexcraft.block.IBlockMultiBlock;
+import com.celestek.hexcraft.block.IHexBlock;
 import com.celestek.hexcraft.init.HexAchievements;
 import com.celestek.hexcraft.init.HexBlocks;
 import com.celestek.hexcraft.init.HexConfig;

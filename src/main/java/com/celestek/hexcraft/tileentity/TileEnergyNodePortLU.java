@@ -13,9 +13,9 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.ChatComponentTranslation;
 import gregapi.tileentity.energy.ITileEntityEnergy;
 
-import java.util.*;
-
-import static java.util.Collections.EMPTY_LIST;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class TileEnergyNodePortLU extends TileEntity implements ITileHexEnergyPort, ITileEntityEnergy {
 
@@ -182,7 +182,7 @@ public class TileEnergyNodePortLU extends TileEntity implements ITileHexEnergyPo
         if (HexUtils.getMetaBit(HexBlocks.META_STRUCTURE_IS_PART, worldObj, xCoord, yCoord, zCoord))
             return TD.Energy.LU.AS_LIST;
         else
-            return EMPTY_LIST;
+            return Collections.EMPTY_LIST;
     }
 
     // Connectivity

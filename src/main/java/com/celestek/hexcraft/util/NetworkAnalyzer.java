@@ -1,9 +1,23 @@
 package com.celestek.hexcraft.util;
 
-import com.celestek.hexcraft.block.*;
+import com.celestek.hexcraft.block.BlockEnergyNodeCore;
+import com.celestek.hexcraft.block.BlockEnergyNodePortHEX;
+import com.celestek.hexcraft.block.BlockEnergyPylon;
+import com.celestek.hexcraft.block.BlockHexoriumCable;
+import com.celestek.hexcraft.block.BlockPersonalTeleportationPad;
+import com.celestek.hexcraft.block.BlockPylonBase;
+import com.celestek.hexcraft.block.BlockQuantumObserver;
+import com.celestek.hexcraft.block.IBlockHexEnergyDrain;
+import com.celestek.hexcraft.block.IBlockHexEnergyPort;
+import com.celestek.hexcraft.block.IBlockHexEnergySource;
 import com.celestek.hexcraft.init.HexBlocks;
 import com.celestek.hexcraft.init.HexConfig;
-import com.celestek.hexcraft.tileentity.*;
+import com.celestek.hexcraft.tileentity.ITileHexEnergyDrain;
+import com.celestek.hexcraft.tileentity.ITileHexEnergyPort;
+import com.celestek.hexcraft.tileentity.ITileHexEnergySource;
+import com.celestek.hexcraft.tileentity.TileEnergyNodePortHEX;
+import com.celestek.hexcraft.tileentity.TileEnergyPylon;
+import com.celestek.hexcraft.tileentity.TilePersonalTeleportationPad;
 import net.minecraft.block.Block;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.ChatComponentTranslation;

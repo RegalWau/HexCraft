@@ -1,11 +1,14 @@
-/*
-/*/
-!/src/
-!.gitignore
-!gradlew*
-!/gradle/
-!/LICENSE.txt
-!/README.md
-!/COPYING.lesser
-!build.gradle
-!.travis.yml
+# Gradle
+/build/
+/out/
+/bin/
+/gradle/
+/.idea/
+/*.iml
+*.log
+
+# Minecraft specific
+/.gradle/
+/run/
+
+

@@ -1,7 +1,14 @@
 package com.celestek.hexcraft.init;
 
 import com.celestek.hexcraft.HexCraft;
-import com.celestek.hexcraft.item.*;
+import com.celestek.hexcraft.item.HexItemComponent;
+import com.celestek.hexcraft.item.ItemHexoriumDye;
+import com.celestek.hexcraft.item.ItemHexoriumManipulator;
+import com.celestek.hexcraft.item.ItemHexoriumProbe;
+import com.celestek.hexcraft.item.ItemHexoriumReinforcer;
+import com.celestek.hexcraft.item.ItemHexoriumSaw;
+import com.celestek.hexcraft.item.ItemMolecularTransposer;
+import com.celestek.hexcraft.item.ItemMortarPestle;
 import com.celestek.hexcraft.util.HexEnums;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
