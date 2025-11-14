@@ -25,16 +25,20 @@ The mod is still in heavy development, but you are more than welcome to try it! 
 ## Environment Setup
 
 **Prerequisites**
-- Java 8
+- Java 8 & 21
 - Minecraft 1.7.10
 - Forge 10.13.4.1614
 
 **Building on linux**
-1)Clone this repository
-2)./gradlew build
-3)Bask in hexorium glory
+1) Clone this repository
+2) Switch to OpenJDK 21
+3) ./gradlew build
+4) Bask in hexorium glory
 
-**Building**
+**Building on windows**
+[This might be wrong, I am not
+familiar with java development
+on windows]
 1) Clone this repository.
 2) Run `gradlew setupDecompWorkspace`
 3) Run `gradlew setupDevWorkspace`
