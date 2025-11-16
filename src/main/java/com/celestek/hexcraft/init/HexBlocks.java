@@ -46,6 +46,7 @@ import com.celestek.hexcraft.block.BlockSoundProjector;
 import com.celestek.hexcraft.block.BlockTankRender;
 import com.celestek.hexcraft.block.BlockTankValve;
 import com.celestek.hexcraft.block.BlockTemperedHexoriumGlass;
+import com.celestek.hexcraft.block.BlockHexalloy;
 import com.celestek.hexcraft.util.HexEnums;
 import com.celestek.hexcraft.util.HexUtils;
 import cpw.mods.fml.common.Loader;
@@ -155,6 +156,9 @@ public class HexBlocks {
         BlockHexoriumCoatedStone.registerBlocks();
         BlockPylonBase.registerBlocks();
         BlockSoundProjector.registerBlocks();
+        
+        // Hexalloy
+        BlockHexalloy.registerBlock();
     }
 
     public static int getMachineState(World world, int x, int y, int z) {

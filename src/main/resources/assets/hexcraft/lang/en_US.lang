@@ -662,6 +662,7 @@ tile.blockTemperedHexoriumGlassWhite.name=White Tempered Hexorium Glass
 tile.blockHexoriumCoatedStone.name=Hexorium-Coated Stone
 tile.blockHexoriumCoatedStoneWhite.name=White Hexorium-Coated Stone
 
+tile.blockHexalloy.name=Hexalloy Block
 
 item.itemHexoriumCrystalRed.name=Red Hexorium Crystal
 item.itemHexoriumCrystalGreen.name=Green Hexorium Crystal
