@@ -25,13 +25,13 @@ The mod is still in heavy development, but you are more than welcome to try it! 
 ## Environment Setup
 
 **Prerequisites**
-- Java 8 & 21
+- Java 8
 - Minecraft 1.7.10
 - Forge 10.13.4.1614
 
 **Building on linux**
 1) Clone this repository
-2) Switch to OpenJDK 21
+2) Switch to OpenJDK 8
 3) ./gradlew build
 4) Bask in hexorium glory
 
