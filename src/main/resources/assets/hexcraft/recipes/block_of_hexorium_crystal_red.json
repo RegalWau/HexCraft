@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"AAA",
+		"AAA",
+		"AAA"
+	],
+	"key":
+	{
+		"A":
+		{
+			"type": "forge:ore_dict",
+			"ore": "gemHexoriumRed"
+		}
+	},
+	"result": { "item": "hexcraft:block_of_hexorium_crystal_red" }
+}

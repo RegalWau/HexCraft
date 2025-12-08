@@ -1,0 +1,9 @@
+*
+!src/
+!src/*
+!.gitignore
+!build.gradle
+!LICENSE.txt
+!README.md
+!Changes.txt
+!TODO.txt
